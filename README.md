@@ -11,6 +11,18 @@ This is just a repo of some pass extensions that may prove useful if you use it 
 
 ### Installation
 
+Clone this repo:
+
+```bash
+git clone https://github.com/Yahddyyp/pass-extensions.git
+```
+
+`cd` into the repo dir:
+
+```bash
+cd pass-extensions
+```
+
 Each extension follows the same pattern — copy to `~/.password-store/.extensions/` and make executable:
 
 ```bash
