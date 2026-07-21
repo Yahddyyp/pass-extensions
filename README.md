@@ -1,5 +1,5 @@
-# Pass Extension
-This is just a repo of some pass extension that may prove useful if you use it as your daily driver.
+# Pass Extensions
+This is just a repo of some pass extensions that may prove useful if you use it as your daily driver.
 
 ## Extensions
 
@@ -14,10 +14,11 @@ This is just a repo of some pass extension that may prove useful if you use it a
 Each extension follows the same pattern — copy to `~/.password-store/.extensions/` and make executable:
 
 ```bash
-export PASSWORD_STORE_ENABLE_EXTENSIONS=true   # add to ~/.bashrc or ~/.zshrc and for othe shell just use the equivlents for this in them 
+export PASSWORD_STORE_ENABLE_EXTENSIONS=true   # add to ~/.bashrc or ~/.zshrc and for othe shells just use the equivlents for this in them 
 cp extensions/*.bash "${PASSWORD_STORE_EXTENSIONS_DIR:-$HOME/.password-store/.extensions}/"
 chmod +x "${PASSWORD_STORE_EXTENSIONS_DIR:-$HOME/.password-store/.extensions}"/*.bash
 ```
 
-> **Note:** If you set `PASSWORD_STORE_EXTENSIONS_DIR` in your shell rc, copy the files there instead as `pass` only checks one location.
+> [!Note]
+> If you set `PASSWORD_STORE_EXTENSIONS_DIR` in your shell rc, copy the files there instead as `pass` only checks one location.
 
