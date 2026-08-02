@@ -8,6 +8,7 @@ This is just a repo of some pass extensions that may prove useful if you use it 
 | [`rg.bash`](extensions/rg.bash) | `pass rg [rg-opts] <pattern>` | Search decrypted password-store entries with **ripgrep**. Decrypts each `.gpg` file in memory, pipes the plaintext through `rg`, and prints matching entries with highlighted output. |
 | [`fd.bash`](extensions/fd.bash) | `pass fd [fd-opts] <pattern>` | Find password-store entries by filename using **fd** (`fd`). Lists matching `.gpg` files in a coloured tree layout. Supports all fd flags (`-i`, `-e`, etc.). Requires `fd` and `tree`. |
 | [`lazygit.bash`](extensions/lazygit.bash) | `pass lazygit [lg-opts]` | Open **lazygit** with `pass lazygit`. Requires `lazygit` and an initialised git repo of your password-store.|
+| [`alias.bash`](extensions/alias.bash) | `pass alias [opts]` | Use simple login and addy.io to create email aliases. Requires **jq** and simple login api key or addy.io (check the extension file for more details).|
 
 ### Installation
 
