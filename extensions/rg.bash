@@ -5,9 +5,7 @@
 #   mkdir -p "${PASSWORD_STORE_EXTENSIONS_DIR:-$HOME/.password-store/.extensions}"
 #   cp rg.bash "${PASSWORD_STORE_EXTENSIONS_DIR:-$HOME/.password-store/.extensions}/rg.bash"
 #   chmod +x "${PASSWORD_STORE_EXTENSIONS_DIR:-$HOME/.password-store/.extensions}/rg.bash"
-#   export PASSWORD_STORE_ENABLE_EXTENSIONS=true   # add to your shell (must be `export`, not just set)
-#
-# Note: if PASSWORD_STORE_EXTENSIONS_DIR is set in your shell rc, this file must live there, not in ~/.password-store/.extensions as pass only looks in one place
+#   export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 #
 # Usage:
 #   pass rg [ripgrep-options] <pattern>
