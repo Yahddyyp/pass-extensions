@@ -57,7 +57,7 @@ require_jq() { command -v jq >/dev/null || alias_die "jq is required"; }
 
 get_token() {
   local provider="$1"
-  cmd_show "alias-providers/${provider}" 2>/dev/null | head -n1
+  cmd_show "alias-providers/''${provider}" 2>/dev/null | sed -n '1p'
 }
 
 cmd_alias_mailboxes() {
